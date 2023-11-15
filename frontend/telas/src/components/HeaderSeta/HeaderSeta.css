@@ -1,0 +1,26 @@
+
+/* HeaderSenha.css */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px; /* Ajuste o padding conforme necessário */
+    background-color: #FF0054; /* Cor de fundo do header */
+    min-height: 10vh;
+  }
+  
+  .left-section {
+    margin-right: auto; /* Isso empurrará a seta para a extrema esquerda */
+  }
+  
+  .seta {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 50px;
+  }
+  
+    
+  
+    
+  
+  
+    

@@ -1,0 +1,16 @@
+/* Header.css */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+  background-color: #FF0054;
+  padding: 10px;
+}
+
+.header-image {
+  max-width: 180px; /* Tamanho da imagem do iPhone SE */
+  height: auto;
+}
+

@@ -1,0 +1,50 @@
+.form-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row input {
+    width: 160px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    /* display: block; */
+    display: flex;
+    margin-right: 5px;
+  }
+
+/* .fotoadc{
+    background-color: blue;
+} */
+
+.custom-file-upload {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .upload-button {
+    background-color: #e6e6e6;
+    color: rgb(131, 131, 131);
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    align-items: center;
+  }
+  
+  /* Opcional: Adicione estilos para hover ou focus */
+  .upload-button:hover, .upload-button:focus {
+    background-color: #ccc;
+  }
+
+.cadastroempresa{
+    margin: 3px;
+    margin-top: 20px;
+}
+
+.dotoo{
+    margin-top: 50px;
+}
+  

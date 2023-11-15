@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+
+.body {
+    width: 100%;
+    min-height: 100%;
+    /* height: 87vh; */
+    /* background-color: #FF0154; */
+    background-color: rgb(247, 247, 247);
+    /* background-color: white; */
+    flex-direction: column;
+    color: blueviolet;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    display: flex;
+ 
+}
+
+.container{
+    max-width: 80vw;
+}
+
+/* .container .carousel{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+} */
+
+.container .carousel{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 80vw;
+                                                                           
+}
+.container .carousel::-webkit-scrollbar{
+    display: none;
+
+}
+
+.container .carousel .item{
+    /* background-color: #FF0154; */
+    background-color: white;
+    /* background-color: pink; */
+    /* background-color: rgb(241, 241, 241); */
+    text-align: center;
+    margin: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 280px;
+    height: 530px;
+    border-radius: 16px;
+    /* justify-content: center; */
+    flex: none;
+}
+
+.container .carousel .item .image img{
+    width: 60vw;
+    height: 42vh;
+    object-fit: cover;
+}
+
+.container .carousel .item .info{
+    height: 140px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .carousel .item .info .span{
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container .carousel .item .info .name{
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px ;
+    /* margin-left: 20px; */
+    color: black;
+}
+.container .carousel .item .info .oldPrice{
+    font-size: 1.0rem;
+    flex-grow: 1;
+    color: rgb(0, 0, 0);
+    /* margin-top: -4px; */
+}
+.container .carousel .item .info .price{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: orange;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.container .buttons {
+    width: 100%;
+    text-align: center;
+}
+.container .buttons button{
+    cursor: pointer;
+    width: 40px;
+}
+
+.whats{
+    display: flex;
+    padding: 3vh;
+}
+
+.foto-whats{
+    height: 5vh;
+    width: auto;
+    text-align: center;
+}
+
+.whatsapp{
+    display: flex;
+    padding: 3px;
+    text-align: center;
+    margin-left: 50px;
+    color: black;
+}
+.instagram{
+    display: flex;
+    padding: 3px;
+    text-align: center;
+    margin-left: 50px;
+    color: black;
+}
+
+
+
